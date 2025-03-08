@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { TransactionContext } from "./TransactionContext";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
-import "./PieChartPage.css"; // Add styling if needed
+import "./PieChartPage.css"; 
 
 const COLORS = ["#2f9c14", "#db1421"]; // Colors for Income and Expense
 
@@ -26,7 +26,7 @@ const PieChartPage = () => {
     <div className="chart-container">
       <h2>Income vs Expense</h2>
       <div className="responsive-chart">
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer width="100%" height="100%">
         <PieChart>
           <Pie data={data} cx="50%" cy="50%" outerRadius={150} fill="#8884d8" dataKey="value">
             {data.map((entry, index) => (

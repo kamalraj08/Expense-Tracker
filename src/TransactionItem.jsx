@@ -9,4 +9,4 @@ const TransactionItem = ({ transaction, onDelete }) => {
   );
 };
 
-export default TransactionItem; // Export the component for use in other files
+export default TransactionItem; 

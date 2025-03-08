@@ -17,7 +17,7 @@ const TransactionList = () => {
           {transactions.map((transaction) => {
             if (!transaction || typeof transaction.amount !== "number") {
               console.error("Invalid transaction:", transaction);
-              return null; // Skip rendering if transaction is invalid
+              return null; 
             }
 
             const isExpense = transaction.amount < 0;

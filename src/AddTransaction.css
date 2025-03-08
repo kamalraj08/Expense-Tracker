@@ -1,6 +1,6 @@
 .transaction-container {
     margin-bottom: 25px;
-    text-align: center; /* Center heading */
+    text-align: center; 
 }
 
 .new-transaction{
@@ -9,14 +9,14 @@
 
 .form {
     display: flex;
-    flex-direction: column; /* Stack items in two rows */
-    align-items: center; /* Center horizontally */
-    gap: 10px; /* Add spacing between rows */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
 }
 
 .input-group {
     display: flex;
-    gap: 10px; /* Add spacing between input fields */
+    gap: 10px; 
 }
 
 .action-group {

@@ -23,7 +23,7 @@ const transactionReducer = (state, action) => {
 
 // Transaction Provider Component
 const TransactionProvider = ({ children }) => {
-  // Retrieve stored transactions from localStorage safely
+  
   const getStoredTransactions = () => {
     const storedData = localStorage.getItem("transactions");
     try {

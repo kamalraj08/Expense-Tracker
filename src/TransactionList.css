@@ -4,12 +4,12 @@
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  max-height: 300px; /* Set a fixed height */
+  max-height: 300px; 
   overflow-y: auto;  /* Enable vertical scrolling */
   border: 1px solid #ddd;
 }
 
-/* Optional: Customize Scrollbar */
+
 .transaction-list::-webkit-scrollbar {
   width: 8px;
 }
@@ -23,7 +23,7 @@
   background: #555;
 }
 
-/* Keep your existing styles */
+
 .transaction-history {
   font-size: 20px;
   text-align: center;
@@ -42,7 +42,7 @@
 ul {
   list-style: none;
   padding: 0;
-  margin: 0; /* Remove extra margin */
+  margin: 0; 
 }
 
 .transaction-item {
