@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: '/expense-tracker/'
+  base: "/Expense-Tracker/", // Change to your repo name
+  build: {
+    outDir: "dist",
+  },
 })
