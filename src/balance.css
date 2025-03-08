@@ -1,0 +1,32 @@
+.balance {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    margin: 60px 50px 50px 50px;
+    font-family: "Merriweather", serif;
+  }
+  
+  .balance h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .balance h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .balance::before {
+    content: "$";
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 40px;
+    opacity: 0.2;
+  }
+  

@@ -1,0 +1,82 @@
+.transaction-list {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-height: 300px; /* Set a fixed height */
+  overflow-y: auto;  /* Enable vertical scrolling */
+  border: 1px solid #ddd;
+}
+
+/* Optional: Customize Scrollbar */
+.transaction-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.transaction-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.transaction-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Keep your existing styles */
+.transaction-history {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.no-transactions {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove extra margin */
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.transaction-item.expense {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.transaction-item.income {
+  background: #d4edda;
+  color: #155724;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #e74c3c;
+  transition: transform 0.2s ease-in-out;
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+  color: #c0392b;
+}

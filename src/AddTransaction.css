@@ -1,0 +1,56 @@
+.transaction-container {
+    margin-bottom: 25px;
+    text-align: center; /* Center heading */
+}
+
+.new-transaction{
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Stack items in two rows */
+    align-items: center; /* Center horizontally */
+    gap: 10px; /* Add spacing between rows */
+}
+
+.input-group {
+    display: flex;
+    gap: 10px; /* Add spacing between input fields */
+}
+
+.action-group {
+    display: flex;
+    gap: 10px;
+}
+  
+.description, .amount {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #605f5f;
+    border-radius: 5px;
+}
+  
+.type {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-transaction {
+    background: #00a600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.add-transaction:hover {
+    background: #008a00;
+}

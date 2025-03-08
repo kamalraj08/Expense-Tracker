@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+
+body {
+  background: linear-gradient(to right, #f5ccd5, #91edea, #35c5ed);
+  min-height: 100vh; /* Ensure full height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+  
